@@ -1,5 +1,5 @@
 import { useReducer } from "react";
-import { PlayerReducer, initialPlayerState } from "../reducers/playerReducer";
+import { playerReducer, initialPlayerState } from "../reducers/playerReducer";
 
 export default function Player() {
   const [player, dispatch] = useReducer(playerReducer, initialPlayerState);
